@@ -15,7 +15,7 @@
 	mov [ds:MUIMANStart+16+8], dword 0x12
 	mov [ds:MUIMANStart+16+12], dword 0x1000
 
-	mov [ds:0x12000], dword 0			; Keine Messagunginung
+	mov [ds:0x12000], dword 0			; no pending messages
 
 
 tester:
